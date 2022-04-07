@@ -1,0 +1,15 @@
+{
+  "name": "coder-cli",
+  "version": "1.0.0",
+  "description": "自动化Vue脚手架",
+  "main": "index.js",
+  "bin": {
+    "korea": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "korea",
+  "license": "ISC"
+}
