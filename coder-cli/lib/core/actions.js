@@ -18,7 +18,9 @@ const {
 
 const createProjectAction = async (project, args) => {
   // 1. 下载模板
-  await download(vueGitRepository)
+  await download(vueGitRepository, project, {
+    clone: true
+  })
   // 2. 执行npm install 命令
   // 3. 执行 npm run serve 命令
   // 4. 打开浏览器
