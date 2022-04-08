@@ -13,6 +13,7 @@
   "author": "korea",
   "license": "ISC",
   "dependencies": {
-    "commander": "^9.1.0"
+    "commander": "^9.1.0",
+    "download-git-repo": "^3.0.2"
   }
 }
