@@ -1,11 +1,17 @@
 #!/usr/bin/env node
-const program = require('commander');
 
+const program = require('commander');
+const {
+  versionOptions
+} = require('./lib/core/version')
+const {
+  otherOptions
+} = require('./lib/core/help')
 // 1. 查看当前脚手架版本
-// 当前版本号
-const versionInfo = '当前coder-cli脚手架版本为：' + require('./package.json').version;
-// 支持小写查看版本号
-const lowerCaseCommand = '-v --version';
-program.version(versionInfo, lowerCaseCommand);
-// 2. 解析终端命令
+versionOptions()
+// 2. 配置其他指令
+otherOptions()
+// 3. 解析终端命令
 program.parse(process.argv);
+// 查看指令是否生效
+console.log('用户输入的指令是： ', program._optionValues)
