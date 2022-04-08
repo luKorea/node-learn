@@ -1,5 +1,5 @@
-const vueRepository = ''; // Vue仓库地址
+const vueGitRepository = 'direct:https://github.com/coderwhy/hy-vue-temp.git'; // Vue仓库地址
 
 module.exports = {
-  vueRepository
+  vueGitRepository
 }
