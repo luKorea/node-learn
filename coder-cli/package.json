@@ -1,5 +1,5 @@
 {
-  "name": "coder-cli",
+  "name": "korea-cli",
   "version": "1.0.0",
   "description": "自动化Vue脚手架",
   "main": "index.js",
@@ -9,9 +9,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["vue", "korea"],
   "author": "korea",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/luKorea/node-learn.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luKorea/node-learn.git"
+  },
   "dependencies": {
     "commander": "^9.1.0",
     "download-git-repo": "^3.0.2",
