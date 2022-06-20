@@ -4,7 +4,7 @@ const {
 
 const HOST_PORT = 9999;
 const HOST_PORT_BACK = 9998;
-const HOST = '127.0.0.1';
+const HOST = '0.0.0.0'; // 默认是0.0.0.0
 const server = createServer((request, response) => {
   response.end('this is test info')
 })
