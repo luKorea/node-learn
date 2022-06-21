@@ -6,6 +6,9 @@ const HOST_PORT = 9999;
 const HOST_PORT_BACK = 9998;
 const HOST = '0.0.0.0'; // 默认是0.0.0.0
 const server = createServer((request, response) => {
+  console.log(request.url);
+  console.log(request.method);
+  console.log(request.headers);
   response.end('this is test info')
 })
 
