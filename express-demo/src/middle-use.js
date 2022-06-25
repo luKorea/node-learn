@@ -19,10 +19,10 @@ app.use((req, res, next) => {
 **/
 
 // 2. 特殊中间件
-// app.get('/', (req, res, next) => {
-//   console.log(next);
-//   res.end('这是中间件的特殊情况')
-// })
+app.get('/', (req, res, next) => {
+  console.log(next);
+  res.end('这是中间件的特殊情况')
+})
 
 
 // 3. 路径匹配中间件
